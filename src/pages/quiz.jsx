@@ -51,6 +51,7 @@ const Quiz = () => {
   }
 
   const selectOption = i => e => {
+    if (isSubmitted) return
     e.preventDefault()
     setChosenAnswerIndex(i)
   }
