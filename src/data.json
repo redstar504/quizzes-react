@@ -483,5 +483,62 @@
         "answer": "Niagara Falls"
       }
     ]
+  },
+  {
+    "id": 6,
+    "title": "Alberta",
+    "icon": "./assets/images/icon-accessibility.svg",
+    "questions": [
+      {
+        "question": "What is the capital city of Alberta?",
+        "options": ["Calgary", "Edmonton", "Banff", "Jasper"],
+        "answer": "Edmonton"
+      },
+      {
+        "question": "Which national park is located in Alberta and known for its stunning mountain scenery?",
+        "options": ["Banff National Park", "Yoho National Park", "Jasper National Park", "Waterton Lakes National Park"],
+        "answer": "Banff National Park"
+      },
+      {
+        "question": "What river flows through the city of Edmonton?",
+        "options": ["Bow River", "Athabasca River", "Saskatchewan River", "Red Deer River"],
+        "answer": "North Saskatchewan River"
+      },
+      {
+        "question": "Which Alberta city is famous for its annual Calgary Stampede event?",
+        "options": ["Calgary", "Edmonton", "Red Deer", "Lethbridge"],
+        "answer": "Calgary"
+      },
+      {
+        "question": "What is the largest industry in Alberta?",
+        "options": ["Agriculture", "Technology", "Oil and Gas", "Forestry"],
+        "answer": "Oil and Gas"
+      },
+      {
+        "question": "Which mountain range is located in the western part of Alberta?",
+        "options": ["Rocky Mountains", "Appalachian Mountains", "Cascades", "Sierra Nevada"],
+        "answer": "Rocky Mountains"
+      },
+      {
+        "question": "What is the nickname for the Alberta provincial flag?",
+        "options": ["Wild Rose", "True North", "Golden Harvest", "Prairie Sky"],
+        "answer": "Wild Rose"
+      },
+      {
+        "question": "In which year did Alberta officially become a province of Canada?",
+        "options": ["1867", "1885", "1905", "1931"],
+        "answer": "1905"
+      },
+      {
+        "question": "Which famous dinosaur fossil discovery site is located in Alberta?",
+        "options": ["Dinosaur Provincial Park", "Royal Tyrrell Museum", "Drumheller Dinosaur Centre", "Fossil Rim Wildlife Center"],
+        "answer": "Dinosaur Provincial Park"
+      },
+      {
+        "question": "What is the nickname for Alberta?",
+        "options": ["The Sunshine Province", "The Prairie Province", "The Oil Sands Province", "The Wild Rose Province"],
+        "answer": "The Wild Rose Province"
+      }
+    ]
   }
 ]
