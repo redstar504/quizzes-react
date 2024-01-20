@@ -1,0 +1,76 @@
+#themeMode {
+    display: none;
+}
+
+#themeToggleWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .2s left;
+    gap: .5em;
+}
+
+#themeToggleWrapper span {
+    width: 1em;
+    height: 1em;
+    background-image: var(--sun-icon-m);
+}
+
+#themeToggleWrapper span:last-child {
+    width: 1em;
+    height: 1em;
+    background-image: var(--moon-icon-m);
+}
+
+#modeControl {
+    width: 2em;
+    height: 1.25em;
+    background: var(--purple);
+    border-radius: 1em;
+    padding: .25rem 0 .25em 0;
+    position: relative;
+}
+
+#modeControl b {
+    display: block;
+    width: 0.75em;
+    height: 0.75em;
+    background: var(--white);
+    border-radius: 50%;
+    position: absolute;
+    left: 0.25em;
+    transition: 0.075s left;
+}
+
+#themeMode:checked + main #modeControl b {
+    left: 1em;
+}
+
+@media (min-width: 48em) {
+    #themeToggleWrapper span {
+        width: 1.5em;
+        height: 1.5em;
+        background-image: var(--sun-icon-t);
+    }
+
+    #themeToggleWrapper span:last-child {
+        width: 1.5em;
+        height: 1.5em;
+        background-image: var(--moon-icon-t);
+    }
+
+    #modeControl {
+        width: 3em;
+        height: 1.75em;
+    }
+
+    #modeControl b {
+        width: 1.25em;
+        height: 1.25em;
+        left: 0.25em;
+    }
+
+    #themeMode:checked + main #modeControl b {
+        left: 1.5em;
+    }
+}

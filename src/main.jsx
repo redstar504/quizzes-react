@@ -5,6 +5,7 @@ import ErrorPage from './errorPage.jsx'
 import Quiz, { loader as quizLoader } from './routes/quiz.jsx'
 import Index from './routes/index.jsx'
 import Root from './routes/root.jsx'
+import Results from './routes/results.jsx'
 
 const router = createHashRouter([
   {
@@ -20,6 +21,10 @@ const router = createHashRouter([
         path: 'quiz/:quizId',
         element: <Quiz />,
         loader: quizLoader
+      },
+      {
+        path: 'results',
+        element: <Results />,
       }
     ]
   }
