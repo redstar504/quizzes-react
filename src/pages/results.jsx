@@ -22,7 +22,7 @@ const Results = ({quiz, score}) => {
         <p>out of 10</p>
       </section>
 
-      <button onClick={() => navigate('/')}>Play Again</button>
+      <button className="button" onClick={() => navigate('/')}>Play Again</button>
     </>
   )
 }

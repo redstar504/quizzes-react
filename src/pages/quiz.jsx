@@ -100,7 +100,7 @@ const Quiz = () => {
         ))}
       </ol>
 
-      <button onClick={submitAnswer}>Submit Answer</button>
+      <button className="button" onClick={submitAnswer}>Submit Answer</button>
     </>
   )
 }

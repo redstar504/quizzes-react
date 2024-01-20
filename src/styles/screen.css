@@ -103,7 +103,7 @@ a {
     text-decoration: none;
 }
 
-button {
+.button {
     background-color: var(--purple);
     color: var(--white);
     width: 100%;
@@ -324,7 +324,7 @@ header aside {
         line-height: 3.5rem;
     }
 
-    button {
+    .button {
         height: 5.75rem;
         font-size: 1.75em;
         border-radius: 1.5rem;
@@ -363,7 +363,7 @@ header aside {
         margin-top: auto;
     }
 
-    button {
+    .button {
         grid-column: 2 / 2;
     }
 }
