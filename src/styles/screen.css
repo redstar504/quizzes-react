@@ -66,7 +66,7 @@ ul {
     --card-shadow: rgba(143, 160, 193, 0.14);
 }
 
-.darkMode {
+#darkModeEnabled {
     --bg-color: hsl(216, 25%, 25%);
     --text-color: hsl(0, 0%, 100%);
     --ital-text: hsl(216, 47%, 78%);
