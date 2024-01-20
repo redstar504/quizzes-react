@@ -426,5 +426,62 @@
         "answer": "Google Lighthouse"
       }
     ]
+  },
+  {
+    "id": 5,
+    "title": "Canadian Geography",
+    "icon": "./assets/images/icon-accessibility.svg",
+    "questions": [
+      {
+        "question": "Which is the capital city of Canada?",
+        "options": ["Toronto", "Vancouver", "Ottawa", "Montreal"],
+        "answer": "Ottawa"
+      },
+      {
+        "question": "What is the largest province in Canada by land area?",
+        "options": ["Ontario", "Quebec", "Alberta", "British Columbia"],
+        "answer": "Quebec"
+      },
+      {
+        "question": "Which of the following is one of the Great Lakes that borders Canada?",
+        "options": ["Lake Superior", "Lake Michigan", "Lake Erie", "Lake Ontario"],
+        "answer": "Lake Superior"
+      },
+      {
+        "question": "In which province would you find Banff National Park?",
+        "options": ["Alberta", "Saskatchewan", "Manitoba", "New Brunswick"],
+        "answer": "Alberta"
+      },
+      {
+        "question": "What is the official currency of Canada?",
+        "options": ["Dollar", "Euro", "Pound", "Yen"],
+        "answer": "Dollar"
+      },
+      {
+        "question": "Which Canadian city hosted the 2010 Winter Olympics?",
+        "options": ["Toronto", "Montreal", "Calgary", "Vancouver"],
+        "answer": "Vancouver"
+      },
+      {
+        "question": "What is the name of the longest river in Canada?",
+        "options": ["Fraser River", "Columbia River", "Yukon River", "Mackenzie River"],
+        "answer": "Mackenzie River"
+      },
+      {
+        "question": "Which province is known as the 'Land of the Maple'?",
+        "options": ["Ontario", "Quebec", "British Columbia", "Newfoundland and Labrador"],
+        "answer": "Quebec"
+      },
+      {
+        "question": "What is the easternmost province in Canada?",
+        "options": ["New Brunswick", "Nova Scotia", "Prince Edward Island", "Newfoundland and Labrador"],
+        "answer": "Newfoundland and Labrador"
+      },
+      {
+        "question": "Which iconic waterfall is located on the border between Ontario and New York?",
+        "options": ["Niagara Falls", "Victoria Falls", "Iguazu Falls", "Angel Falls"],
+        "answer": "Niagara Falls"
+      }
+    ]
   }
 ]

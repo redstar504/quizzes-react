@@ -38,6 +38,12 @@ const Index = () => {
             Accessibility
           </Link>
         </li>
+        <li>
+          <Link to={`quiz/5`} className="card">
+            <span className="icon"></span>
+            Canadian Geography
+          </Link>
+        </li>
       </ul>
     </>
   )
