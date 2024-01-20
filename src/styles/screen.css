@@ -164,6 +164,10 @@ header aside {
     font-size: .875em;
 }
 
+#intro i:last-child {
+    margin-bottom: auto;
+}
+
 #intro h2 {
     font-weight: 500;
     font-size: 1.25em;
