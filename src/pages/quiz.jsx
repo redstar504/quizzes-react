@@ -93,9 +93,9 @@ const Quiz = () => {
             key={i}
             className={classListForOption(i)}
           >
-            <a className="card" href="#" onClick={selectOption(i)}>
+            <button className="card" onClick={selectOption(i)}>
               {option}
-            </a>
+            </button>
           </li>
         ))}
       </ol>
