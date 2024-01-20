@@ -216,6 +216,12 @@ header aside {
 
 #selectionList .selected.correct .card {
     box-shadow: inset 0 0 0 3px #26D782;
+    color: #26D782;
+}
+
+#selectionList .selected.correct .card::before {
+    background-color: #26D782;
+    color: var(--white);
 }
 
 #selectionList .correct .card {
@@ -229,6 +235,7 @@ header aside {
     background-image: url(../assets/images/icon-incorrect.svg);
     background-position: right 1em center;
     background-repeat: no-repeat;
+    color: #EE5454;
 }
 
 #selectionList .selected.incorrect .card::before {
