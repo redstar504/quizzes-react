@@ -38,18 +38,6 @@ const Index = () => {
             Accessibility
           </Link>
         </li>
-        <li>
-          <Link to={`quiz/7`} className="card">
-            <span className="icon"></span>
-            Lethbridge
-          </Link>
-        </li>
-        <li>
-          <Link to={`quiz/8`} className="card">
-            <span className="icon"></span>
-            Kelowna
-          </Link>
-        </li>
       </ul>
     </>
   )
