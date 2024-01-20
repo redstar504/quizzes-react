@@ -1,11 +1,10 @@
-import { useNavigate, useOutletContext } from 'react-router-dom'
+import { Link, useOutletContext } from 'react-router-dom'
 import quizzes from '../data.json'
 import { useEffect } from 'react'
 import QuizIcon from '../components/QuizIcon.jsx'
 
 const Index = () => {
   const [, setQuizHeader] = useOutletContext()
-  const navigate = useNavigate()
 
   useEffect(() => {
     setQuizHeader(null)
@@ -24,10 +23,10 @@ const Index = () => {
       <ul id="selectionList">
         {quizzes.map((q, i) => (
           <li key={i}>
-            <button onClick={() => navigate(`quiz/${q.id}`)} className="card">
+            <Link to={`quiz/${q.id}`} className="card">
               <QuizIcon quiz={q} />
               {q.title}
-            </button>
+            </Link>
           </li>
         ))}
       </ul>
