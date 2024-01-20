@@ -18,7 +18,7 @@ const Quiz = () => {
   const correctAnswerIndex = question.options.findIndex(option => question.answer === option)
 
   const submitAnswer = e => {
-    if (isSubmitted) return
+    if (isSubmitted || chosenAnswerIndex === undefined) return
     setIsSubmitted(true)
 
     setTimeout(() => {
