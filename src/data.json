@@ -540,5 +540,119 @@
         "answer": "The Wild Rose Province"
       }
     ]
+  },
+  {
+    "id": 7,
+    "title": "Lethbridge",
+    "icon": "./assets/images/icon-accessibility.svg",
+    "questions": [
+      {
+        "question": "What is the population of Lethbridge, Alberta (approximately)?",
+        "options": ["50,000", "80,000", "100,000", "120,000"],
+        "answer": "100,000"
+      },
+      {
+        "question": "Which river flows through Lethbridge?",
+        "options": ["Bow River", "Oldman River", "Red Deer River", "South Saskatchewan River"],
+        "answer": "Oldman River"
+      },
+      {
+        "question": "Lethbridge is known for its strong wind, which is often referred to as:",
+        "options": ["Zephyr", "Chinook", "Bora", "Santa Ana"],
+        "answer": "Chinook"
+      },
+      {
+        "question": "Which post-secondary institution is located in Lethbridge?",
+        "options": ["University of Alberta", "University of Calgary", "Lethbridge College", "Mount Royal University"],
+        "answer": "Lethbridge College"
+      },
+      {
+        "question": "What is the name of the iconic high-level bridge in Lethbridge?",
+        "options": ["Victoria Bridge", "High Level Bridge", "Henderson Lake Bridge", "Whoop-Up Drive Bridge"],
+        "answer": "High Level Bridge"
+      },
+      {
+        "question": "Which park in Lethbridge is known for its Japanese Garden?",
+        "options": ["Galt Gardens", "Henderson Lake Park", "Nicholas Sheran Park", "Indian Battle Park"],
+        "answer": "Nikka Yuko Japanese Garden"
+      },
+      {
+        "question": "What industry historically played a significant role in Lethbridge's economy?",
+        "options": ["Agriculture", "Mining", "Forestry", "Oil and Gas"],
+        "answer": "Agriculture"
+      },
+      {
+        "question": "Which annual event celebrates Lethbridge's agricultural heritage?",
+        "options": ["Whoop-Up Days", "Harvest Festival", "Lethbridge Roundup", "Pioneer Days"],
+        "answer": "Whoop-Up Days"
+      },
+      {
+        "question": "What is the name of the professional ice hockey team based in Lethbridge?",
+        "options": ["Lethbridge Hurricanes", "Lethbridge Thunder", "Lethbridge Icebreakers", "Lethbridge Rockies"],
+        "answer": "Lethbridge Hurricanes"
+      },
+      {
+        "question": "Which nearby natural attraction is popular for its hoodoos and hiking trails?",
+        "options": ["Waterton Lakes National Park", "Head-Smashed-In Buffalo Jump", "Writing-on-Stone Provincial Park", "Frank Slide"],
+        "answer": "Writing-on-Stone Provincial Park"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Kelowna",
+    "icon": "./assets/images/icon-accessibility.svg",
+    "questions": [
+      {
+        "question": "What is the approximate population of Kelowna?",
+        "options": ["50,000", "80,000", "120,000", "150,000"],
+        "answer": "120,000"
+      },
+      {
+        "question": "Which lake is Kelowna situated on?",
+        "options": ["Okanagan Lake", "Kalamalka Lake", "Shuswap Lake", "Skaha Lake"],
+        "answer": "Okanagan Lake"
+      },
+      {
+        "question": "What is the name of the mountain visible from Kelowna's downtown area?",
+        "options": ["Big White Mountain", "Silver Star Mountain", "Mount Boucherie", "Mount Knox"],
+        "answer": "Mount Boucherie"
+      },
+      {
+        "question": "Which annual event celebrates the grape harvest in Kelowna and the surrounding region?",
+        "options": ["Okanagan Wine Festival", "FruitFest", "GrapeFest", "HarvestFest"],
+        "answer": "Okanagan Wine Festival"
+      },
+      {
+        "question": "Kelowna is known for its thriving industry in:",
+        "options": ["Technology", "Forestry", "Tourism", "Mining"],
+        "answer": "Technology"
+      },
+      {
+        "question": "What is the name of the popular waterfront park in Kelowna's downtown area?",
+        "options": ["City Park", "Waterfront Park", "Knox Mountain Park", "Mission Creek Greenway"],
+        "answer": "Waterfront Park"
+      },
+      {
+        "question": "Which nearby ski resort is popular for winter sports and activities?",
+        "options": ["Big White Ski Resort", "Silver Star Mountain Resort", "Sun Peaks Resort", "Revelstoke Mountain Resort"],
+        "answer": "Big White Ski Resort"
+      },
+      {
+        "question": "Kelowna is part of the region known as the:",
+        "options": ["Okanagan Valley", "Fraser Valley", "Columbia Valley", "Kootenay Valley"],
+        "answer": "Okanagan Valley"
+      },
+      {
+        "question": "Which fruit is a significant part of Kelowna's agricultural output?",
+        "options": ["Apples", "Peaches", "Cherries", "Plums"],
+        "answer": "Cherries"
+      },
+      {
+        "question": "What is the name of the cultural district in Kelowna that features galleries, theaters, and museums?",
+        "options": ["Art Central District", "Cultural Haven District", "Kelowna Arts and Heritage District", "The Creative Zone"],
+        "answer": "Kelowna Arts and Heritage District"
+      }
+    ]
   }
 ]

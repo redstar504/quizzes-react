@@ -39,15 +39,15 @@ const Index = () => {
           </Link>
         </li>
         <li>
-          <Link to={`quiz/5`} className="card">
+          <Link to={`quiz/7`} className="card">
             <span className="icon"></span>
-            Canadian Geography
+            Lethbridge
           </Link>
         </li>
         <li>
-          <Link to={`quiz/6`} className="card">
+          <Link to={`quiz/8`} className="card">
             <span className="icon"></span>
-            Alberta
+            Kelowna
           </Link>
         </li>
       </ul>
