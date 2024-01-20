@@ -2,10 +2,10 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { createHashRouter, RouterProvider } from 'react-router-dom'
 import ErrorPage from './errorPage.jsx'
-import Quiz, { loader as quizLoader } from './routes/quiz.jsx'
-import Index from './routes/index.jsx'
-import Root from './routes/root.jsx'
-import Results from './routes/results.jsx'
+import Quiz, { loader as quizLoader } from './pages/quiz.jsx'
+import Index from './pages/index.jsx'
+import Root from './pages/root.jsx'
+import Results from './pages/results.jsx'
 
 const router = createHashRouter([
   {

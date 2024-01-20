@@ -180,6 +180,7 @@ header aside {
     height: .5em;
     background: var(--purple);
     border-radius: .25em;
+    transition: 0.15s width;
 }
 
 #selectionList {
@@ -247,26 +248,6 @@ header aside {
 
 .questions .card::before {
     content: counter(question, upper-alpha);
-}
-
-.icon-html {
-    background-color: #FFF1E9;
-    background-image: url(../assets/images/icon-html.svg);
-}
-
-.icon-css {
-    background-color: #E0FDEF;
-    background-image: url(../assets/images/icon-css.svg);
-}
-
-.icon-js {
-    background-color: #EBF0FF;
-    background-image: url(../assets/images/icon-js.svg);
-}
-
-.icon-a11y {
-    background-color: #F6E7FF;
-    background-image: url(../assets/images/icon-a11y.svg);
 }
 
 #resultsCard {

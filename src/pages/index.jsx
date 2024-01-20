@@ -1,7 +1,14 @@
-import { Link, useNavigate } from 'react-router-dom'
+import { Link, useOutletContext } from 'react-router-dom'
+import quizzes from '../data.json'
+import { useEffect } from 'react'
+import QuizIcon from '../components/QuizIcon.jsx'
 
 const Index = () => {
-  const navigate = useNavigate()
+  const [, setQuizHeader] = useOutletContext()
+
+  useEffect(() => {
+    setQuizHeader(null)
+  }, [setQuizHeader])
 
   return (
     <>
@@ -14,6 +21,17 @@ const Index = () => {
       </section>
 
       <ul id="selectionList">
+        {quizzes.map((q, i) => (
+          <li key={i}>
+            <Link to={`quiz/${q.id}`} className="card">
+              <QuizIcon quiz={q} />
+              {q.title}
+            </Link>
+          </li>
+        ))}
+      </ul>
+
+      {/*<ul id="selectionList">
         <li>
           <Link to={`quiz/1`} className="card">
             <span className="icon icon-html"></span>
@@ -38,7 +56,7 @@ const Index = () => {
             Accessibility
           </Link>
         </li>
-      </ul>
+      </ul>*/}
     </>
   )
 }

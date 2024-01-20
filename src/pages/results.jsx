@@ -1,6 +1,7 @@
 import { useNavigate } from 'react-router-dom'
+import QuizIcon from '../components/QuizIcon.jsx'
 
-const Results = () => {
+const Results = ({quiz, score}) => {
   const navigate = useNavigate()
 
   return (
@@ -14,10 +15,10 @@ const Results = () => {
 
       <section className="card" id="resultsCard">
         <h3>
-          <span className="icon icon-a11y"></span>
+          <QuizIcon quiz={quiz} />
           Accessibility
         </h3>
-        <strong>8</strong>
+        <strong>{score}</strong>
         <p>out of 10</p>
       </section>
 
