@@ -208,6 +208,12 @@ header aside {
     box-shadow: inset 0 0 0 3px var(--purple);
 }
 
+#selectionList .selected .card::before,
+#selectionList .card:hover::before {
+    background-color: #F6E7FF;
+    color: var(--purple);
+}
+
 #selectionList .selected.correct .card {
     box-shadow: inset 0 0 0 3px #26D782;
 }
@@ -250,10 +256,6 @@ button.card {
     text-align: left;
 }
 
-button.card:hover {
-    background-color: var(--card-bg-hover);
-}
-
 .questions .card::before,
 .icon {
     display: block;
@@ -267,6 +269,7 @@ button.card:hover {
     text-align: center;
     line-height: 2.5rem;
     color: var(--gray-navy);
+    transition: background .2s ease;
 }
 
 .questions .card::before {
