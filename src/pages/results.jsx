@@ -4,6 +4,7 @@ import QuizIcon from '../components/QuizIcon.jsx'
 const Results = ({quiz, score}) => {
   const navigate = useNavigate()
 
+
   return (
     <>
       <section id="intro">
@@ -16,7 +17,7 @@ const Results = ({quiz, score}) => {
       <section className="card" id="resultsCard">
         <h3>
           <QuizIcon quiz={quiz} />
-          Accessibility
+          {quiz.title}
         </h3>
         <strong>{score}</strong>
         <p>out of 10</p>

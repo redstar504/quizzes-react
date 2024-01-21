@@ -1,11 +1,12 @@
 import { useLoaderData, useOutletContext } from 'react-router-dom'
 import quizzes from '../data.json'
-import { useContext, useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import Results from './results.jsx'
+import { getQuiz } from '../lib/API.js'
 
 export const loader = ({ params }) => {
   const { quizId } = params
-  return quizzes.find(q => q.id === Number(quizId))
+  return getQuiz(quizId)
 }
 
 const Quiz = () => {
