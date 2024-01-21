@@ -307,6 +307,12 @@ button.card {
     font-size: 1.125em;
 }
 
+#loadingWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
 @media (min-width: 48em) {
     body {
         background-image: var(--bg-img-t);
@@ -394,5 +400,9 @@ button.card {
 
     .button {
         grid-column: 2 / 2;
+    }
+
+    #loadingWrapper {
+        align-items: center;
     }
 }
