@@ -7,5 +7,4 @@ export async function getTopics() {
 
 export async function getQuiz(quizId) {
   return fetch(`${API_HOST}/topics/${quizId}/`)
-    .then(res => res.json())
 }
