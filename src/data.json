@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "HTML",
-    "icon": "/icons/icon-html.svg",
+    "icon": "/quiz/icons/icon-html.svg",
     "color": "#FFF1E9",
     "questions": [
       {
@@ -110,7 +110,7 @@
   {
     "id": 2,
     "title": "CSS",
-    "icon": "/icons/icon-css.svg",
+    "icon": "/quiz/icons/icon-css.svg",
     "color": "#E0FDEF",
     "questions": [
       {
@@ -218,7 +218,7 @@
   {
     "id": 3,
     "title": "JavaScript",
-    "icon": "/icons/icon-js.svg",
+    "icon": "/quiz/icons/icon-js.svg",
     "color": "#EBF0FF",
     "questions": [
       {
@@ -326,7 +326,7 @@
   {
     "id": 4,
     "title": "Accessibility",
-    "icon": "/icons/icon-a11y.svg",
+    "icon": "/quiz/icons/icon-a11y.svg",
     "color": "#F6E7FF",
     "questions": [
       {

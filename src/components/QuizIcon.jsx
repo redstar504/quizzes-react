@@ -3,7 +3,7 @@ const QuizIcon = ({quiz}) => {
     <span
       className="icon"
       style={{
-        backgroundImage: `url(${quiz.icon})`,
+        backgroundImage: `url('/quiz/${quiz.icon}')`,
         backgroundColor: quiz.color,
       }}
     ></span>
